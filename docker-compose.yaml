@@ -1,0 +1,6 @@
+bingo:
+  build: .
+  environment:
+    BINGO_LIST: "クイズ,答え,いろいろ,あるよね"
+  ports:
+    - "8080:8080"
