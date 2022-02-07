@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BINGO</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+  <link rel="stylesheet" href="./cloudbingo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+  <script src="./cloudbingo.js" type="text/javascript" defer></script>
+</head>
+
+<body onload="bingoSquareText()">
+  <h1></h1>
+  <p></p>
+  <table>
+    <tr>
+      <th class="bingoCardHeader">B</th>
+      <th class="bingoCardHeader">I</th>
+      <th class="bingoCardHeader">N</th>
+      <th class="bingoCardHeader">G</th>
+      <th class="bingoCardHeader">O</th>
+    </tr>
+    <tr>
+      <td id="1" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="2" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="3" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="4" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="5" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+    </tr>
+    <tr>
+      <td id="6" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="7" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="8" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="9" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="10" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+    </tr>
+    <tr>
+      <td id="11" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="12" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="13" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="14" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="15" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+    </tr>
+    <tr>
+      <td id="16" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="17" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="18" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="19" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="20" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+    </tr>
+    <tr>
+      <td id="21" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="22" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="23" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="24" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+      <td id="25" class="bingoSquare" onmousedown="onMouseDown(this.id)" onmouseover="onMouseOver(this.id)" onmouseout="onMouseOut(this.id)"></td>
+    </tr>
+  </table>
+  <h5>解答のタイルをクリックしてください。再度クリックすると訂正できます。</h5>
+  <br>
+
+</body>
+
+</html>
